@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment folders
+.env
+.venv/
+venv/
+
+# Streamlit secrets (private API keys)
+.streamlit/secrets.toml
+
+# Uploaded user files or temp data
+uploads/
+data/
+*.pdf
+*.docx
+
+
+# OS or IDE-generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter checkpoints (if you use notebooks)
+.ipynb_checkpoints/

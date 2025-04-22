@@ -1,0 +1,6 @@
+streamlit
+openai>=1.0.0
+PyMuPDF           # For PDFs
+python-docx       # For .docx files
+tiktoken          # For token counting
+pillow            # For image handling
