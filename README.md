@@ -21,7 +21,7 @@ Transform lengthy content into concise summaries powered by OpenAI's GPT models
 ---
 
 ## 🖼 Screenshot
-> Add a preview in `assets/summarizer.mp4`
+> Add a preview in `assets/summarizer (1).mp4`
 
 ---
 
