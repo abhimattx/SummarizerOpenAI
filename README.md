@@ -1,12 +1,15 @@
 ## 📑 GPT Text Summarizer
 
 <div align="center">
-<img alt="GPT Summarizer" src="https://img.shields.io/badge/GPT-Summarizer-12A87D?style=for-the-badge&amp;logo=openai&amp;logoColor=white">
-Transform lengthy content into concise summaries powered by OpenAI's GPT models
+<img alt="GPT Summarizer" src="https://img.shields.io/badge/GPT-Summarizer-12A87D?style=for-the-badge&logo=openai&logoColor=white">
 
-<img alt="GitHub" src="https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&amp;logo=github">
-<img alt="Streamlit" src="https://img.shields.io/badge/Try_it_on-Streamlit-FF4B4B?style=for-the-badge&amp;logo=streamlit">
-<img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge">
+**Transform lengthy content into concise summaries powered by OpenAI's GPT models**
+
+<a href="https://github.com/abhimattx/SummarizerOpenAI"><img alt="GitHub" src="https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&logo=github"></a>
+<a href="https://summarizeropenai.streamlit.app/"><img alt="Streamlit" src="https://img.shields.io/badge/Try_it_on-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit"></a>
+<a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge"></a>
+</div>
+
 ---
 
 ## ✨ Features
@@ -17,8 +20,6 @@ Transform lengthy content into concise summaries powered by OpenAI's GPT models
 - 📊 See token usage and estimated cost
 - 💡 Clean UI built with Streamlit
 - ☁️ Deployable on Streamlit Cloud
-
----
 
 ## 🖼 Screenshot
 <div align="center">
@@ -35,9 +36,8 @@ Transform lengthy content into concise summaries powered by OpenAI's GPT models
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/openai-summarizer.git
-
-cd openai-summarizer
+git clone https://github.com/abhimattx/SummarizerOpenAI.git
+cd SummarizerOpenAI
 ```
 
 ### 2. Add your API key (local only)
@@ -76,6 +76,8 @@ OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxx"
 Done! ✅
 
 ---
+
+## 📁 Project Structure
 
 📁 Folder Structure
 
