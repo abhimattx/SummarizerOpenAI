@@ -36,6 +36,7 @@ Transform lengthy content into concise summaries powered by OpenAI's GPT models
 
 ```bash
 git clone https://github.com/yourusername/openai-summarizer.git
+
 cd openai-summarizer
 ```
 
@@ -76,10 +77,10 @@ Done! ✅
 
 ---
 
-## 📁 Folder Structure
+📁 Folder Structure
 
 ```
-openai-summarizer/
+SummarizerOpenAI/
 ├── app.py                  # Streamlit UI
 ├── openai_api.py           # GPT summarizer logic
 ├── file_handler.py         # File upload reading logic
@@ -93,7 +94,7 @@ openai-summarizer/
 
 ---
 
-## 📦 Requirements
+📦 Requirements
 
 ```txt
 streamlit
