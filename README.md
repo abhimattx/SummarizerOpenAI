@@ -79,7 +79,7 @@ Done! ✅
 
 📁 Folder Structure
 
-
+```
 SummarizerOpenAI/
 ├── app.py                  # Streamlit UI
 ├── openai_api.py           # GPT summarizer logic
@@ -90,19 +90,20 @@ SummarizerOpenAI/
 ├── .streamlit/
 │   └── secrets.toml.example
 └── assets/
-
+```
 
 ---
 
 📦 Requirements
 
+```
 streamlit
 openai>=1.0.0
 PyMuPDF           # For PDFs
 python-docx       # For .docx files
 tiktoken          # For token counting
 pillow            # For image handling
-
+```
 
 ---
 
