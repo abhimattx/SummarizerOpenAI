@@ -32,20 +32,32 @@ Transform lengthy content into concise summaries powered by OpenAI's GPT models
 
 ## 🚀 Run Locally
 
+### 1. Clone the repo
 
-# Clone the repository
-git clone https://github.com/abhimattx/SummarizerOpenAI.git
-cd SummarizerOpenAI
+```bash
+git clone https://github.com/yourusername/openai-summarizer.git
+cd openai-summarizer
+```
 
-# Set up API key (create .streamlit/secrets.toml)
-echo 'OPENAI_API_KEY = "your-api-key-here"' > .streamlit/secrets.toml
+### 2. Add your API key (local only)
 
-# Install dependencies
+Create `.streamlit/secrets.toml` and paste:
+
+```toml
+OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxx"
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Launch the app
+### 4. Run the app
+
+```bash
 streamlit run app.py
-
+```
 
 ---
 
