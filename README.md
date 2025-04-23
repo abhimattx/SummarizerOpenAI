@@ -21,13 +21,18 @@ Transform lengthy content into concise summaries powered by OpenAI's GPT models
 ---
 
 ## 🖼 Screenshot
-> Add a preview in `assets/summarizer (1).mp4`
-
+<div align="center">
+  <a href="assets/summarizer(1).mp4" target="_blank">
+    <img src="assets/thumbnail.png" alt="Demo Video Thumbnail" width="600"/>
+    <br>
+    <b>▶️ Click to download and watch demo</b>
+  </a>
+</div>
 ---
 
 ## 🚀 Run Locally
 
-```bash
+
 # Clone the repository
 git clone https://github.com/abhimattx/SummarizerOpenAI.git
 cd SummarizerOpenAI
@@ -40,7 +45,7 @@ pip install -r requirements.txt
 
 # Launch the app
 streamlit run app.py
-```
+
 
 ---
 
@@ -63,17 +68,15 @@ Done! ✅
 
 ```
 openai-summarizer/
-│
-├── app.py                  # Streamlit user interface
-├── openai_api.py           # OpenAI integration and token tracking
-├── file_handler.py         # Document processing for PDF/DOCX/TXT
-│
-├── requirements.txt        # Project dependencies
+├── app.py                  # Streamlit UI
+├── openai_api.py           # GPT summarizer logic
+├── file_handler.py         # File upload reading logic
+├── requirements.txt
+├── .gitignore
+├── README.md
 ├── .streamlit/
 │   └── secrets.toml.example
-│
-├── assets/                 # Images and static resources
-└── uploads/                # Temporary file storage
+└── assets/
 ```
 
 ---
